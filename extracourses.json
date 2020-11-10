@@ -1,0 +1,44 @@
+{
+    "CS465" : {
+        "code" : "CS465",
+        "name": "Topics: Computing Theory",
+        "prerequisites": [
+        
+        ]
+    },
+    "CS466" : {
+        "code" : "CS466",
+        "name": "Topics: General Computing Applications",
+        "prerequisites": [
+        
+        ]
+    },
+    "CS467" : {
+        "code" : "CS467",
+        "name": "Topics: Information Systems Applications",
+        "prerequisites": [
+        
+        ]
+    },
+    "CS481" : {
+        "code" : "CS481",
+        "name": "Computer Applications",
+        "prerequisites": [
+       
+        ]
+    },
+    "CS490" : {
+        "code" : "CS490",
+        "name": "Independent Problems in Computer Science",
+        "prerequisites": [
+     
+        ]
+    },
+    "CS491" : {
+        "code" : "CS491",
+        "name": "Practicum in Computer Science",
+        "prerequisites": [
+       
+        ]
+    }
+}

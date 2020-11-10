@@ -1,0 +1,312 @@
+{
+    "BIOL241":{
+        "code": "BIOL241",
+        "name": "Basics of Life",
+        "prerequisites": [
+        ]
+    },
+    "CMST191":{
+        "code": "CMST191",
+        "name": "Introduction to Public Speaking",
+        "prerequisites": []
+    },
+    "CMST192":{
+        "code": "CMST192",
+        "name": "Introduction to Speech Communication",
+        "prerequisites": []
+    },
+    "ENG111":{
+        "code": "ENG111",
+        "name": "College Reading and Writing",
+        "prerequisites": []
+    },
+    "MATH120":{
+        "code": "MATH120",
+        "name": "Precalculus",
+        "prerequisites": []
+    },
+    "MATH140": {
+        "code": "MATH140",
+        "name": "Applied Calculus",
+        "prerequisites": []
+      },
+    "MATH212": {
+        "code": "MATH212",
+        "name": "Calculus I",
+        "prerequisites": [
+            "MATH120"
+        ]
+    },
+    "MATH213": {
+        "code": "MATH213",
+        "name": "Calculus II",
+        "prerequisites": [
+            "MATH212"
+        ]
+    },
+    "STAT210" : {
+        "code": "STAT210",
+        "name": "Statistics",
+        "program" : "Core",
+        "prerequisites": [
+        "MATH140"
+        ]
+    },
+    "CS101": {
+      "code": "CS101",
+      "name": "Exploring Creative Computing",
+      "program" : "Core",
+      "prerequisites": []
+    },
+    "CS234": {
+      "code": "CS234",
+      "name": "Algorithms and Problem Solving I",
+      "program" : "Core",
+      "prerequisites": []
+    },
+    "CS250": {
+        "code": "CS250",
+        "name": "Algorithms and Problem Solving II",
+        "program" : "Core",
+        "prerequisites": [
+        "CS234", "MATH120"
+        ]
+    } ,
+    "CS275": {
+        "code": "CS275",
+        "name": "Mathematical Foundations of Algorithms",
+        "program" : "Core",
+        "prerequisites": [
+        "CS234", "MATH120"
+        ]
+    },
+    "CS313": {
+        "code": "CS313",
+        "name": "Networking and Telecommunications",
+        "program" : "Core",
+        "prerequisites": [
+        "CS250", "CMST191"
+        ]
+    } ,
+    "CS341": {
+        "code": "CS341",
+        "name": "Data Structures",
+        "program" : "Core",
+        "prerequisites": [
+        "CS250", "CS275"
+        ]
+    },
+    "CS344" : {
+        "code": "CS344",
+        "name": "Introduction to Web Programming",
+        "prerequisites": [
+        "CS250"
+        ]
+    }, 
+    "CS345" : {
+        "code": "CS345",
+        "name": "Mobile Application Development",
+        "prerequisites": [
+        "CS250"
+        ]
+    }, 
+    "CS366" : {
+        "code": "CS366",
+        "name": "Topics in Emerging Computing Technologies",
+        "prerequisites": [
+        "CS250"
+        ]
+    }, 
+    "CS368" : {
+        "code": "CS368",
+        "name": "Introduction to Bioinformatics",
+        "prerequisites": [
+        "CS250", "BIOL241"
+        ]
+    },
+    "CS369" : {
+        "code": "CS369",
+        "name": "Spatial Information Processing",
+        "prerequisites": [
+        "CS250", "MATH212"
+        ]
+    }, 
+    "CS375" : {
+        "code": "CS375",
+        "name": "Computer Systems",
+        "program" : "Core",
+        "prerequisites": [
+        "CS250"
+        ]
+    }, 
+    "CS385" : {
+        "code": "CS385",
+        "name": "Applied Database Management Systems",
+        "program" : "Core",
+        "prerequisites": [
+        "CS250", "ENG111"
+        ]
+    }, 
+    "CS405" : {
+        "code": "CS405",
+        "name": "Operating Systems",
+        "prerequisites": [
+        "CS341", "CS375"
+        ]
+    }, 
+    "CS410" : {
+        "code": "CS410",
+        "name": "Software Engineering",
+        "program" : "Core",
+        "prerequisites": [
+        "CS341", "CS313", "CS385", "ENG111"
+        ]
+    },
+    "CS411" : {
+        "code": "CS411",
+        "name": "Software Quality",
+        "prerequisites": [
+        "CS410", "CMST191 or CMST192"
+        ]
+    }, 
+    "CS413" : {
+        "code": "CS413",
+        "name": "Advanced Networking and Telecommunications",
+        "prerequisites": [
+        "CS313", "CS375"
+        ]
+    },
+    "CS415" : {
+        "code": "CS415",
+        "name": "Principles of Programming Languages",
+        "prerequisites": [
+        "CS341"
+        ]
+    }, 
+    "CS420" : {
+        "code": "CS420",
+        "name": "Computer Architecture",
+        "prerequisites": [
+        "CS375"
+        ]
+    },
+    "CS423" : {
+        "code": "CS423",
+        "name": "Computer and Network Security",
+        "prerequisites": [
+        "CS313 or CS375"
+        ]
+    },
+    "CS430" : {
+        "code": "CS430",
+        "name": "Computer Graphics",
+        "prerequisites": [
+        "CS341"
+        ]
+    },
+    "CS433" : {
+        "code": "CS433",
+        "name": "Digital Image Processing",
+        "prerequisites": [
+        "CS341", "MATH213"
+        ]
+    },
+    "CS435" : {
+        "code": "CS435",
+        "name": "Theory of Computation",
+        "prerequisites": [
+        "CS341"
+        ]
+    }, 
+    "CS440" : {
+        "code" : "CS440",
+        "name": "Theory of Algorithms",
+        "prerequisites": [
+        "CS341"
+        ]
+    },
+    "CS444" : {
+        "code": "CS444",
+        "name": "Human Computer Interaction",
+        "prerequisites": [
+        "CS341", "CS344 or CS345"
+        ]
+    },
+    "CS445" : {
+        "code" : "CS445",
+        "name": "Artificial Intelligence",
+        "prerequisites": [
+        "CS341"
+        ]
+    },
+    "CS447" : {
+        "code" : "CS447",
+        "name": "Machine Learning",
+        "prerequisites": [
+        "CMST191","CS341","MATH212 or MATH140"
+        ]
+    },
+    "CS450" : {
+        "code" : "CS450",
+        "name": "Compliers",
+        "prerequisites": [
+        "CS415 or CS435"
+        ]
+    },
+    "CS471" : {
+        "code" : "CS471",
+        "name": "Object Oriented Design and Development",
+        "prerequisites": [
+        "CS341", "CMST191"
+        ]
+    },
+    "CS472" : {
+        "code" : "CS472",
+        "name": "Resuable Software Architectures",
+        "prerequisites": [
+        "CS471"
+        ]
+    },
+    "CS476" : {
+        "code" : "CS476",
+        "name": "Distributed Systems: Concepts and Design",
+        "prerequisites": [
+        "CS405"
+        ]
+    },
+    "CS482" : {
+        "code" : "CS482",
+        "name": "Internet/Web Architecture and Development",
+        "prerequisites": [
+        "CS471", "CS344 or CS472"
+        ]
+    },
+    "CS485" : {
+        "code" : "CS485",
+        "name": "Database Systems Design",
+        "prerequisites": [
+        "CS341","CS385"
+        ]
+    },
+    "CS495" : {
+        "code" : "CS495",
+        "name": "Computer Science Research Seminar",
+        "prerequisites": [
+        "ENG111", "CS341"
+        ]
+    },
+    "PHYS332" : {
+        "code" : "PHYS332",
+        "name": "Digital Circuts",
+        "prerequisites": [
+        "CS250"
+        ]
+    },
+    "PHYS333" : {
+        "code" : "PHYS333",
+        "name": "Microprocessor Electronics",
+        "prerequisites": [
+        "PHYS332"
+        ]
+    }
+}

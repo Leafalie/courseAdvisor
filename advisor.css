@@ -1,0 +1,63 @@
+#courseList {
+    border-collapse: collapse;
+    border-radius: 30px;
+    border-spacing: 0; /* prevents background from showing through corners */
+    table-layout: fixed; /* prevents resizing */
+    /* Center Align*/
+    width: 50%;
+    margin: auto;
+}
+
+/* Set table column widths */
+#headerCheckbox {
+    border-radius: 10px 0 0 0;
+    width: 20px;
+}
+
+#codeHeader{
+    width: 90px;
+}
+
+#titleHeader{
+    width: 400px;
+}
+
+#prereqHeader {
+    border-radius: 0 10px 0 0;
+    width: 350px;
+}
+
+/* table rows */
+th {
+    background-color: #4e4db3;
+    color: white;
+    height: 30px;
+}
+
+tr {
+    background-color: white;
+}
+
+tr:hover {
+    background-color: #c5c4ef;
+}
+
+/* Page Layout */
+input[type=button] {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 3em;
+    color:#272e35;
+}
+
+body { 
+    background: #ebebeb;
+    color: black;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Metrophobic', sans-serif;
+}
+
